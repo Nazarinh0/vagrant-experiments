@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vagrant-experiments"
+version = "0.1.0"
+description = ""
+authors = ["Nazar Annakhalov <nazar.annahalov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "vagrant_experiments"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
